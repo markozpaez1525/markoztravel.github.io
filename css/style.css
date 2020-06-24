@@ -704,11 +704,10 @@ input:invalid {
 
 .scene {
   border: 1px solid #CCC;
-  margin: 40px 0;
+  margin: 0 0 0 -100px;
   position: relative;
   width: 210px;
   height: 140px;
-  margin: 80px 115px;
   perspective: 1000px;
 }
 
@@ -760,12 +759,15 @@ input:invalid {
   text-align: justify;
   position: relative;
   z-index: 2;
-  /* background: hsla(0, 0%, 100%, 0.8); */
   background: transparent;
 }
 
 .adventure-section-1 {
-	padding: 200px 0;
+	padding: 300px 0 200px 0;
+}
+
+.adventure-title {
+	white-space: nowrap;
 }
 
 .cells-range {
@@ -866,6 +868,26 @@ input[type="range"]::-moz-range-track {
 	}
 	/* End Contact Us */
 	
+	.carousel-options {
+	  text-align: center;
+	  top: 200px;
+	}
+	
+	.adventure-section-1 {
+		/* text-align: center; */
+	}
+	
+	.adventure-title {
+		position: relative;
+		top: -240px;
+		text-align: center;
+	}
+	
+	.jR3DCarouselGalleryDefault,
+	.jR3DCarouselGalleryCustom {
+	  overflow: hidden !important;
+	}
+	
 	.footer-social-media {
 		float: right !important;
 	}
@@ -899,7 +921,6 @@ input[type="range"]::-moz-range-track {
 	.nav-link:hover {
 		background: #000000 !important;
 		color: #ffffff !important;
-		/* padding-left: 15px !important; */
 	}
 	
 	.navbar-toggler {
