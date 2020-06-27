@@ -506,6 +506,8 @@ ul, ol {
 
 .about-us-video-content h1 {
 	white-space: nowrap;
+	position: relative;
+	bottom: 70px;
 }
 
 #aboutUsContent {
