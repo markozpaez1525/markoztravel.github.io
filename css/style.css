@@ -497,7 +497,7 @@ ul, ol {
 
 .about-us-video-content {
     position: absolute;
-    top: 95px;
+    top: 27px;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     width: 100%;
@@ -507,7 +507,7 @@ ul, ol {
 .about-us-video-content h1 {
 	white-space: nowrap;
 	position: relative;
-	bottom: 70px;
+	bottom: 0px;
 }
 
 #aboutUsContent {
@@ -958,6 +958,7 @@ input[type="range"]::-moz-range-track {
 	
 	.about-us-video-content h1 {
 		white-space: nowrap;
+		bottom: 70px;
 	}
 	/* Start About Us */
 	
