@@ -371,7 +371,7 @@ h6,
 
 .navbar-nav {
 	margin-right: 100px;
-	height: 50px;
+	height: 60px;
 }
 
 .nav-link {
@@ -920,6 +920,14 @@ input[type="range"]::-moz-range-track {
 		margin-left: auto;
 	}
 	
+	.navbar {
+		padding: 1.5rem 0rem !important;
+	}
+	
+	.navbar-nav {
+		height: 120px;
+	}
+	
 	.nav-link:hover {
 		background: #000000 !important;
 		color: #ffffff !important;
@@ -931,6 +939,7 @@ input[type="range"]::-moz-range-track {
 	
 	.header-content {
 		position: relative !important;
+		top: 24px;
 	}
 	
 	/* Start About Us */
@@ -941,7 +950,22 @@ input[type="range"]::-moz-range-track {
 	#aboutUsContent {
 		margin-top: -40px;
 	}
+	
+	.about-us-video-content {
+		top: 10px;
+		padding: 295px 110px;
+	}
+	
+	.about-us-video-content h1 {
+		white-space: nowrap;
+	}
 	/* Start About Us */
+	
+	/* Start Contact Us */
+	.contact-mail-symbol {
+		left: 100px;
+	}
+	/* End Contact Us */
 	
 	.footer-social-media {
 		float: left !important;
