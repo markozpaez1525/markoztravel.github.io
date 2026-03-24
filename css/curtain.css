@@ -113,31 +113,9 @@ Main Components
 }
 
 .cd-half-block {
-  /* background: #ffffff; */
-  /* color: #263b40; */
 	color: #fff;
+	background-size: cover;
 }
-.cd-half-block-1 {
-	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/road-1.jpg) center;
-}
-.cd-half-block-2 {
-	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/road-2.jpg) center;
-}
-.cd-half-block-3 {
-	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/road-3.jpg) center;
-}
-.cd-half-block-4 {
-	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/road-4.jpg) center;
-}
-.cd-half-block-5 {
-	color: #fff;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/road-5.jpg) center;
-}
-
 
 .cd-half-block:nth-of-type(1) {
   height: 60vh;
@@ -153,24 +131,45 @@ Main Components
   line-height: 1.8;
 }
 .cd-section:nth-of-type(2) .cd-half-block:first-of-type {
-  background-image: url("../img/img-1.jpg");
-  background-size: cover;
+  background-image: url("../img/mp-1.webp");
 }
 .cd-section:nth-of-type(3) .cd-half-block:first-of-type {
-  background-image: url("../img/img-2.jpg");
-  background-size: cover;
+  background-image: url("../img/mp-4.webp");
 }
 .cd-section:nth-of-type(4) .cd-half-block:first-of-type {
-  background-image: url("../img/img-3.jpg");
-  background-size: cover;
+  background-image: url("../img/mp-5.webp");
 }
 .cd-section:nth-of-type(5) .cd-half-block:first-of-type {
-  background-image: url("../img/img-4.jpg");
-  background-size: cover;
+  background-image: url("../img/mp-7.webp");
 }
 .cd-section:nth-of-type(6) .cd-half-block:first-of-type {
-  background-image: url("../img/img-5.jpg");
-  background-size: cover;
+  background-image: url("../img/mp-9.webp");
+}
+
+.cd-half-block-1 {
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/mp-2.webp) center;
+	background-size: cover;
+}
+.cd-half-block-2 {
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/mp-3.webp) center;
+	background-size: cover;
+}
+.cd-half-block-3 {
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/mp-6.webp) center;
+	background-size: cover;
+}
+.cd-half-block-4 {
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/mp-8.webp) center;
+	background-size: cover;
+}
+.cd-half-block-5 {
+	color: #fff;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/mp-10.webp) center;
+	background-size: cover;
 }
 
 @media only screen and (min-width: 1170px) {
