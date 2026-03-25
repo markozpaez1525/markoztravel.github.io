@@ -22,6 +22,7 @@ jQuery(document).ready(function($){
     	prevSection();
     });
     $('.cd-vertical-nav .cd-next').on('click', function(){
+		//alert("Next!");
     	nextSection();
     });
     $(document).keydown(function(event){
@@ -128,13 +129,23 @@ jQuery(document).ready(function($){
 		});
 	}
 
+	//Arrow Down
 	function nextSection() {
+		//alert("Next Animating is: "+animating);
 		if (!animating) {
 			if ($('.cd-section.is-visible').next().length > 0) smoothScroll($('.cd-section.is-visible').next());
-		}
+			//First Trigger to click the arrow down
+			//alert ("Next False")
+			//smoothScroll("FirstTrigger");
+		} 
+		//else {
+			//alert ("Next True")
+			//if ($('.cd-section.is-visible').next().length >= 0) smoothScroll($('.cd-section.is-visible').next());
+		//}
 	}
-
+	//Arrow Up
 	function prevSection() {
+		//alert("Prev Animating is: "+animating);
 		if (!animating) {
 			var prevSection = $('.cd-section.is-visible');
 			if(prevSection.length > 0 && $(window).scrollTop() != prevSection.offset().top) {
@@ -151,7 +162,21 @@ jQuery(document).ready(function($){
 	}
 
 	function smoothScroll(target) {
+		//alert("Target is:"+target);
+		//alert("Success Sana kaso");
 		animating = true;
-        $('body,html').animate({'scrollTop': target.offset().top}, 500, function(){ animating = false; });
+		$('body,html').animate({'scrollTop': target.offset().top}, 1000, function(){ animating = false; });
+		//alert(target)
+		// if (target=="FirstTrigger"){
+			// $('html, body').animate({
+			  // scrollTop: $(window).scrollTop() + 1000
+			// }, 500);	
+				
+		// animating = true;
+		
+		// } else {
+			// $('body,html').animate({'scrollTop': target.offset().top}, 1000, function(){ animating = false; });
+		// }
+		
 	}
 });
