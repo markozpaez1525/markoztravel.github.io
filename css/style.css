@@ -57,32 +57,32 @@ h6 {
 
 h1,
 .h1 {
-    font-size: 36px
+    font-size: 40px
 }
 
 h2,
 .h2 {
-    font-size: 30px
+    font-size: 35px
 }
 
 h3,
 .h3 {
-    font-size: 24px
+    font-size: 30px
 }
 
 h4,
 .h4 {
-    font-size: 18px
+    font-size: 20px
 }
 
 h5,
 .h5 {
-    font-size: 16px
+    font-size: 15px
 }
 
 h6,
 .h6 {
-    font-size: 14px;
+    font-size: 12px;
     color: #222
 }
 
@@ -405,7 +405,7 @@ h6,
 
 /* Start Banner */
 .banner-bg {
-	background: url(../img/header-bg.jpg) center;
+	background: url(../img/adv-header-bg.webp) center;
 	background-size: cover;
 }
 
@@ -765,7 +765,7 @@ input:invalid {
 }
 
 .adventure-section-1 {
-	padding: 300px 0 200px 0;
+	padding: 300px 0 300px 0;
 }
 
 .adventure-title {
